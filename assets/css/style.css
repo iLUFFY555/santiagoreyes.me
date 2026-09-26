@@ -16,6 +16,7 @@
   --accent-dark: #97340b;
   --accent-soft: #fbe9dc;
   --card: #fffdf9;
+  --nav: rgba(250, 248, 244, 0.9);
   --radius: 6px;
   --font-display: "Archivo", "Helvetica Neue", Arial, sans-serif;
   --font-body: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
@@ -38,6 +39,7 @@
     --accent-dark: #f28a64;
     --accent-soft: #2c211b;
     --card: #1d1b18;
+    --nav: rgba(23, 22, 20, 0.9);
     --shadow: 0 24px 60px rgba(0, 0, 0, 0.38);
   }
 }
@@ -138,7 +140,7 @@ section.block + section.block { border-top: 1px solid var(--line-soft); }
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(250, 248, 244, 0.9);
+  background: var(--nav);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--line-soft);
@@ -602,7 +604,7 @@ a.tag:hover { border-color: var(--accent); color: var(--accent-dark); text-decor
 .glance-sticker {
   width: 68px;
   height: 68px;
-  justify-self: end;
+  justify-self: center;
   object-fit: contain;
   transform: rotate(3deg);
   filter: drop-shadow(1px 0 0 var(--card)) drop-shadow(-1px 0 0 var(--card)) drop-shadow(0 1px 0 var(--card)) drop-shadow(0 -1px 0 var(--card)) drop-shadow(3px 4px 0 var(--ink));
