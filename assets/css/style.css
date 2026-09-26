@@ -237,6 +237,9 @@ section.block + section.block { border-top: 1px solid var(--line-soft); }
   object-fit: cover;
   animation: kenburns 26s ease-in-out infinite alternate;
 }
+/* Portrait hero (homepage photo of Santiago) */
+.hero-portrait { max-width: 400px; width: 100%; margin: 0 auto; }
+.hero-portrait img { aspect-ratio: 4 / 5; }
 @keyframes kenburns {
   from { transform: scale(1); }
   to { transform: scale(1.07); }
