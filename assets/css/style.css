@@ -97,6 +97,10 @@ a:hover { color: var(--accent-dark); text-decoration: underline; }
   border-radius: 0 0 var(--radius) 0;
 }
 .skip-link:focus { left: 0; color: #fff; text-decoration: none; }
+@media (prefers-color-scheme: dark) {
+  .skip-link { background: var(--accent); color: #fff; }
+  .skip-link:focus { color: #fff; }
+}
 
 .wrap {
   max-width: var(--max);
@@ -310,6 +314,11 @@ section.block + section.block { border-top: 1px solid var(--line-soft); }
 .btn:hover { background: var(--accent); border-color: var(--accent); color: #fff; text-decoration: none; transform: translateY(-1px); }
 .btn.ghost { background: transparent; color: var(--ink); }
 .btn.ghost:hover { background: var(--ink); color: #fff; border-color: var(--ink); }
+@media (prefers-color-scheme: dark) {
+  .btn { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .btn:hover { background: var(--accent-dark); border-color: var(--accent-dark); color: #fff; }
+  .btn.ghost:hover { background: var(--ink); border-color: var(--ink); color: #171614; }
+}
 
 .link-arrow {
   font-weight: 600;

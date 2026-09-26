@@ -6,7 +6,7 @@
 </defs>
 <rect width="900" height="1100" fill="#EDE8DC"/>
 <rect width="900" height="1100" fill="url(#d)" opacity="0.55"/>
-<circle cx="82" cy="926" r="94" fill="#C2410C" opacity="0.06"/><circle cx="191" cy="858" r="94" fill="#C2410C" opacity="0.06"/><circle cx="745" cy="673" r="105" fill="#C2410C" opacity="0.06"/><rect x="698" y="0" width="2" height="1100" fill="#D8CDB4" opacity="0.7"/><rect x="310" y="0" width="2" height="1100" fill="#D8CDB4" opacity="0.7"/>
+<circle cx="458" cy="7" r="53" fill="#C2410C" opacity="0.06"/><circle cx="581" cy="1023" r="118" fill="#C2410C" opacity="0.06"/><circle cx="511" cy="154" r="50" fill="#C2410C" opacity="0.06"/><rect x="85" y="0" width="2" height="1100" fill="#D8CDB4" opacity="0.7"/><rect x="383" y="0" width="2" height="1100" fill="#D8CDB4" opacity="0.7"/>
 <rect x="14" y="14" width="872" height="1072" fill="none" stroke="#D8CDB4" stroke-width="1.5"/>
 <text x="34" y="52" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="13" letter-spacing="3" fill="#8A8172">MARKETING &amp; DESIGN</text>
 <text x="450.0" y="550.0" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-weight="800" font-size="44" letter-spacing="-0.5" fill="#2A251D">El Rincón Latino</text>
