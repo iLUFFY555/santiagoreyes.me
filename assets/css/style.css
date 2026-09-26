@@ -432,7 +432,7 @@ a.tag:hover { border-color: var(--accent); color: var(--accent-dark); text-decor
   position: sticky;
   top: 68px;
   z-index: 50;
-  background: rgba(250, 248, 244, 0.94);
+  background: var(--nav);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-top: 1px solid var(--line-soft);
@@ -469,7 +469,7 @@ a.tag:hover { border-color: var(--accent); color: var(--accent-dark); text-decor
   transition: all 0.18s ease;
 }
 .chip:hover { border-color: var(--ink); color: var(--ink); }
-.chip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: #fff; }
+.chip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
 
 .seg {
   display: inline-flex;
@@ -926,7 +926,7 @@ a.tag:hover { border-color: var(--accent); color: var(--accent-dark); text-decor
 /* Per-slide focal points are set inline from CAROUSEL_SLIDES data */
 .carousel-frame {
   position: relative;
-  background: #fff;
+  background: var(--card);
   border: 1px solid var(--line);
   border-radius: var(--radius);
   padding: 12px;
@@ -951,7 +951,7 @@ a.tag:hover { border-color: var(--accent); color: var(--accent-dark); text-decor
   height: 40px;
   border-radius: 50%;
   border: 1px solid var(--line);
-  background: rgba(255, 255, 255, 0.94);
+  background: var(--nav);
   color: var(--ink);
   font-size: 24px;
   line-height: 1;
@@ -961,7 +961,7 @@ a.tag:hover { border-color: var(--accent); color: var(--accent-dark); text-decor
   justify-content: center;
   box-shadow: var(--shadow);
 }
-.carousel-btn:hover { background: #fff; }
+.carousel-btn:hover { background: var(--card); }
 .carousel-prev { left: 22px; }
 .carousel-next { right: 22px; }
 .carousel-dots { display: flex; gap: 8px; justify-content: center; margin-top: 12px; }
