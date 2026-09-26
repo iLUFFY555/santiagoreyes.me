@@ -45,10 +45,8 @@
   if (grid) {
     var cards = Array.prototype.slice.call(grid.querySelectorAll(".work-card"));
     var catBtns = Array.prototype.slice.call(document.querySelectorAll("[data-filter-cat]"));
-    var typeBtns = Array.prototype.slice.call(document.querySelectorAll("[data-filter-type]"));
     var count = document.getElementById("filter-count");
     var activeCat = "all";
-    var activeType = "all";
 
     function setPressed(btns, btn) {
       btns.forEach(function (b) { b.setAttribute("aria-pressed", b === btn ? "true" : "false"); });
@@ -58,10 +56,7 @@
       var shown = 0;
       cards.forEach(function (card) {
         var cats = (card.getAttribute("data-cats") || "").split(" ");
-        var type = card.getAttribute("data-type");
-        var okCat = activeCat === "all" || cats.indexOf(activeCat) !== -1;
-        var okType = activeType === "all" || type === activeType;
-        var show = okCat && okType;
+        var show = activeCat === "all" || cats.indexOf(activeCat) !== -1;
         card.hidden = !show;
         if (show) shown++;
       });
@@ -76,13 +71,6 @@
       btn.addEventListener("click", function () {
         activeCat = btn.getAttribute("data-filter-cat");
         setPressed(catBtns, btn);
-        apply();
-      });
-    });
-    typeBtns.forEach(function (btn) {
-      btn.addEventListener("click", function () {
-        activeType = btn.getAttribute("data-filter-type");
-        setPressed(typeBtns, btn);
         apply();
       });
     });
