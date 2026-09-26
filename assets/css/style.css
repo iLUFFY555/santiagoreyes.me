@@ -202,7 +202,7 @@ section.block + section.block { border-top: 1px solid var(--line-soft); }
   align-items: end;
 }
 .hero h1 {
-  font-size: clamp(2.3rem, 5.4vw, 4.1rem);
+  font-size: clamp(3rem, 8vw, 5.5rem);
   font-weight: 800;
   max-width: 16ch;
   margin-bottom: 0.5em;
