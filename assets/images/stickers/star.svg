@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
+  <defs>
+    <path id="st" d="M60 24 L67.4 46.8 L91.4 46.8 L72 60.9 L79.4 83.7 L60 69.6 L40.6 83.7 L48 60.9 L28.6 46.8 L52.6 46.8 Z"/>
+  </defs>
+  <use href="#st" fill="#ffffff" stroke="#ffffff" stroke-width="10" stroke-linejoin="round" paint-order="stroke"/>
+  <use href="#st" fill="#d43d2a"/>
+</svg>

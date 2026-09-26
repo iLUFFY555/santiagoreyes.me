@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
+  <defs>
+    <path id="m-cone" d="M42 58 L82 40 L82 78 L42 66 Z"/>
+    <rect id="m-grip" x="32" y="53" width="10" height="18" rx="4"/>
+    <path id="m-handle" d="M48 68 L54 90 L66 90 L58 66 Z"/>
+    <path id="m-a1" d="M90 52 Q98 59 90 66"/>
+    <path id="m-a2" d="M96 46 Q108 59 96 72"/>
+  </defs>
+  <g fill="#ffffff" stroke="#ffffff" stroke-width="10" stroke-linejoin="round" paint-order="stroke">
+    <use href="#m-cone"/><use href="#m-grip"/><use href="#m-handle"/>
+  </g>
+  <g fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round">
+    <use href="#m-a1"/><use href="#m-a2"/>
+  </g>
+  <use href="#m-cone" fill="#c2410c"/>
+  <use href="#m-grip" fill="#1c1917"/>
+  <use href="#m-handle" fill="#1c1917"/>
+  <use href="#m-a1" fill="none" stroke="#c2410c" stroke-width="4" stroke-linecap="round"/>
+  <use href="#m-a2" fill="none" stroke="#c2410c" stroke-width="4" stroke-linecap="round"/>
+</svg>

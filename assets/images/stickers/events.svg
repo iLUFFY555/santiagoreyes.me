@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
+  <defs>
+    <path id="e-ticket" d="M35 44 L85 44 Q92 44 92 51 L92 54 Q86 54 86 60 Q86 66 92 66 L92 69 Q92 76 85 76 L35 76 Q28 76 28 69 L28 66 Q34 66 34 60 Q34 54 28 54 L28 51 Q28 44 35 44 Z"/>
+    <path id="e-star" d="M52 51 L53.8 56.5 L59.6 56.5 L54.9 60 L56.7 65.5 L52 62.1 L47.3 65.5 L49.1 60 L44.4 56.5 L50.2 56.5 Z"/>
+  </defs>
+  <use href="#e-ticket" fill="#ffffff" stroke="#ffffff" stroke-width="10" stroke-linejoin="round" paint-order="stroke"/>
+  <use href="#e-ticket" fill="#c2410c"/>
+  <line x1="72" y1="48" x2="72" y2="72" stroke="#ffffff" stroke-width="2.5" stroke-dasharray="4 4"/>
+  <use href="#e-star" fill="#ffffff"/>
+</svg>

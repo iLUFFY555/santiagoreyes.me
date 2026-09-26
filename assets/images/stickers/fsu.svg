@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
+  <defs>
+    <text id="f-t" x="60" y="62" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="34" letter-spacing="1">FSU</text>
+  </defs>
+  <use href="#f-t" fill="#ffffff" stroke="#ffffff" stroke-width="10" stroke-linejoin="round" paint-order="stroke"/>
+  <use href="#f-t" fill="#782f40"/>
+</svg>

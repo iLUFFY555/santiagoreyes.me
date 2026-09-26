@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
+  <defs>
+    <text id="i-t" x="60" y="55" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="34" letter-spacing="1">ITS</text>
+    <rect id="i-bar" x="42" y="71" width="36" height="6" rx="3"/>
+  </defs>
+  <use href="#i-t" fill="#ffffff" stroke="#ffffff" stroke-width="10" stroke-linejoin="round" paint-order="stroke"/>
+  <use href="#i-bar" fill="#ffffff" stroke="#ffffff" stroke-width="10" stroke-linejoin="round" paint-order="stroke"/>
+  <use href="#i-t" fill="#1c1917"/>
+  <use href="#i-bar" fill="#782f40"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
+  <defs>
+    <g id="v-base" transform="rotate(-8 60 62)">
+      <rect x="38" y="52" width="46" height="32" rx="5"/>
+      <path d="M48 68 L58 68 L54 76 L44 76 Z" fill="#ffffff"/>
+    </g>
+    <g id="v-stick" transform="rotate(-8 60 62)">
+      <g transform="rotate(-8 61 46)">
+        <rect x="36" y="40" width="50" height="13" rx="4"/>
+      </g>
+    </g>
+  </defs>
+  <use href="#v-base" fill="#ffffff" stroke="#ffffff" stroke-width="10" stroke-linejoin="round" paint-order="stroke"/>
+  <use href="#v-stick" fill="#ffffff" stroke="#ffffff" stroke-width="10" stroke-linejoin="round" paint-order="stroke"/>
+  <use href="#v-base" fill="#1c1917"/>
+  <use href="#v-stick" fill="#c2410c"/>
+  <g transform="rotate(-8 60 62)" stroke="#ffffff" stroke-width="3.5">
+    <path d="M44 40 L48 53 M54 40 L58 53 M64 40 L68 53 M74 40 L78 53"/>
+  </g>
+</svg>
