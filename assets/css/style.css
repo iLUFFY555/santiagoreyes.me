@@ -567,6 +567,18 @@ a.tag:hover { border-color: var(--accent); color: var(--accent-dark); text-decor
 }
 .glance-sticker-sm { width: 34px; height: 34px; }
 .glance-sticker-tall { width: auto; height: 34px; }
+/* Die-cut sticker treatment (matches preview): larger badge, card outline + offset shadow */
+.glance-sticker-lg {
+  width: 56px;
+  height: 56px;
+  filter:
+    drop-shadow(0 0 0 var(--paper))
+    drop-shadow(2px 0 0 var(--paper))
+    drop-shadow(-2px 0 0 var(--paper))
+    drop-shadow(0 2px 0 var(--paper))
+    drop-shadow(0 -2px 0 var(--paper))
+    drop-shadow(4px 5px 0 rgba(28, 25, 23, 0.9));
+}
 .glance-text { display: flex; flex-direction: column; gap: 2px; line-height: 1.35; }
 .glance-org { font-weight: 600; color: var(--ink); }
 .glance-role { font-size: 13px; color: var(--muted); }
