@@ -17,7 +17,7 @@
   --card: #fffdf9;
   --radius: 6px;
   --font-display: "Archivo", "Helvetica Neue", Arial, sans-serif;
-  --font-body: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
   --max: 1200px;
   --gutter: clamp(20px, 4vw, 40px);
   --shadow: 0 18px 40px -24px rgba(23, 20, 15, 0.25);
@@ -846,8 +846,7 @@ a.tag:hover { border-color: var(--accent); color: var(--accent-dark); text-decor
 .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(28px, 5vw, 64px); align-items: start; }
 .carousel { max-width: 900px; margin: 0 auto 20px; }
 .carousel-wide .carousel-slide img { aspect-ratio: 16 / 10; }
-/* Per-slide focal points so faces, the plaque, and the award stay in frame */
-.carousel-wide .carousel-slide:nth-child(4) img { object-position: 55% 50%; }
+/* Per-slide focal points are set inline from CAROUSEL_SLIDES data */
 .carousel-frame {
   position: relative;
   background: #fff;
@@ -889,6 +888,15 @@ a.tag:hover { border-color: var(--accent); color: var(--accent-dark); text-decor
 .carousel-prev { left: 22px; }
 .carousel-next { right: 22px; }
 .carousel-dots { display: flex; gap: 8px; justify-content: center; margin-top: 12px; }
+.carousel-meta {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 16px;
+  margin-top: 12px; max-width: 900px; margin-left: auto; margin-right: auto;
+}
+.carousel-caption { margin: 0; font-size: 15px; color: var(--muted); }
+.carousel-count {
+  margin: 0; font-size: 13px; letter-spacing: 2px; color: var(--muted);
+  font-variant-numeric: tabular-nums; white-space: nowrap;
+}
 .carousel-dots button {
   width: 8px;
   height: 8px;

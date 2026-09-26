@@ -163,6 +163,8 @@
     var track = root.querySelector(".carousel-track");
     var slides = Array.prototype.slice.call(track.children);
     var dotsWrap = root.querySelector(".carousel-dots");
+    var captionEl = root.querySelector("[data-carousel-caption]");
+    var countEl = root.querySelector("[data-carousel-count]");
     var index = 0;
 
     slides.forEach(function (_, n) {
@@ -175,12 +177,16 @@
     });
     var dots = Array.prototype.slice.call(dotsWrap.children);
 
+    function pad(n) { return (n < 10 ? "0" : "") + n; }
+
     function go(n) {
       index = (n + slides.length) % slides.length;
       track.style.transform = "translateX(-" + index * 100 + "%)";
       dots.forEach(function (d, k) {
         d.setAttribute("aria-selected", k === index ? "true" : "false");
       });
+      if (captionEl) captionEl.innerHTML = slides[index].getAttribute("data-caption");
+      if (countEl) countEl.textContent = pad(index + 1) + " / " + pad(slides.length);
     }
 
     root.querySelector(".carousel-prev").addEventListener("click", function () { go(index - 1); });
