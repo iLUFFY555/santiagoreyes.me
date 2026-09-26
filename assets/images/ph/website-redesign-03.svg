@@ -6,7 +6,7 @@
 </defs>
 <rect width="900" height="1100" fill="#EDE8DC"/>
 <rect width="900" height="1100" fill="url(#d)" opacity="0.55"/>
-<circle cx="603" cy="688" r="92" fill="#C2410C" opacity="0.06"/><circle cx="439" cy="903" r="51" fill="#C2410C" opacity="0.06"/><circle cx="255" cy="653" r="54" fill="#C2410C" opacity="0.06"/><rect x="573" y="0" width="2" height="1100" fill="#D8CDB4" opacity="0.7"/><rect x="325" y="0" width="2" height="1100" fill="#D8CDB4" opacity="0.7"/>
+<circle cx="166" cy="1030" r="46" fill="#C2410C" opacity="0.06"/><circle cx="823" cy="297" r="88" fill="#C2410C" opacity="0.06"/><circle cx="200" cy="446" r="78" fill="#C2410C" opacity="0.06"/><rect x="143" y="0" width="2" height="1100" fill="#D8CDB4" opacity="0.7"/><rect x="39" y="0" width="2" height="1100" fill="#D8CDB4" opacity="0.7"/>
 <rect x="14" y="14" width="872" height="1072" fill="none" stroke="#D8CDB4" stroke-width="1.5"/>
 <text x="34" y="52" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="13" letter-spacing="3" fill="#8A8172">MARKETING &amp; DESIGN</text>
 <text x="450.0" y="550.0" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-weight="800" font-size="44" letter-spacing="-0.5" fill="#2A251D">Website Redesign</text>
