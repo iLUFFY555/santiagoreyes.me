@@ -202,9 +202,9 @@ section.block + section.block { border-top: 1px solid var(--line-soft); }
   align-items: end;
 }
 .hero h1 {
-  font-size: clamp(3rem, 8vw, 5.5rem);
+  font-size: clamp(3.8rem, 7vw, 6.7rem);
   font-weight: 800;
-  max-width: 16ch;
+  max-width: 10ch;
   margin-bottom: 0.5em;
 }
 .hero h1 .amp { color: var(--accent); font-weight: 800; }
@@ -240,6 +240,13 @@ section.block + section.block { border-top: 1px solid var(--line-soft); }
 /* Portrait hero (homepage photo of Santiago) */
 .hero-portrait { max-width: 400px; width: 100%; margin: 0 auto; }
 .hero-portrait img { aspect-ratio: 4 / 5; }
+/* Framed hero card with offset accent shadow + name chip (matches preview) */
+.hero-art {
+  max-width: 400px; width: 100%; margin: 0 auto;
+  border: 1px solid var(--ink);
+  box-shadow: 12px 12px 0 var(--accent);
+}
+.hero-art img { aspect-ratio: 4 / 5; animation: none; }
 @keyframes kenburns {
   from { transform: scale(1); }
   to { transform: scale(1.07); }
