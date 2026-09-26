@@ -162,7 +162,11 @@ section.block + section.block { border-top: 1px solid var(--line-soft); }
   color: var(--ink);
   text-decoration: none;
   white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
 }
+.brand-mark { width: 26px; height: 26px; object-fit: contain; flex: none; }
 .brand:hover { color: var(--ink); text-decoration: none; }
 .brand .dot { color: var(--accent); }
 
