@@ -480,6 +480,13 @@ a.tag:hover { border-color: var(--accent); color: var(--accent-dark); text-decor
   filter: drop-shadow(0 6px 10px rgba(28, 25, 23, 0.16));
   transition: transform 0.25s ease;
 }
+/* Burst seal sticker (matches preview): larger, offset ink shadow, 7deg rotation */
+.section-sticker-burst {
+  width: 58px;
+  height: 58px;
+  transform: rotate(7deg);
+  filter: drop-shadow(3px 4px 0 rgba(28, 25, 23, 0.9));
+}
 .skill-head {
   display: flex;
   align-items: center;
@@ -566,6 +573,20 @@ a.tag:hover { border-color: var(--accent); color: var(--accent-dark); text-decor
   filter: drop-shadow(0 4px 8px rgba(28, 25, 23, 0.14));
 }
 .glance-sticker-sm { width: 34px; height: 34px; }
+.glance-sticker-xl { width: 68px; height: 68px; }
+/* Right-aligned sticker rows (matches preview home "At a glance") */
+.glance-list-right li { gap: 16px; }
+.glance-list-right .glance-text { margin-right: auto; }
+/* Credentials card sub-sections */
+.cred-card h4 {
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-dark);
+  margin: 1.1em 0 0.5em;
+}
+.cred-card h4:first-of-type { margin-top: 0.9em; }
+.tools-line { color: var(--ink-soft); line-height: 1.7; margin: 0 0 0.9em; }
 .glance-sticker-tall { width: auto; height: 34px; }
 /* Die-cut sticker treatment (matches preview): larger badge, card outline + offset shadow */
 .glance-sticker-lg {
