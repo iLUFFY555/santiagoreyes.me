@@ -142,7 +142,7 @@
       var email = form.querySelector("#cf-email").value.trim();
       var msg = form.querySelector("#cf-message").value.trim();
       var subject = encodeURIComponent("Portfolio inquiry from " + (name || "your website"));
-      var body = encodeURIComponent(msg + "\n\n— " + name + " (" + email + ")");
+      var body = encodeURIComponent(msg + "\n\n- " + name + " (" + email + ")");
       window.location.href = "mailto:" + to + "?subject=" + subject + "&body=" + body;
     });
   }
