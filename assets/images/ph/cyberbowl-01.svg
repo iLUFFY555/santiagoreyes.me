@@ -6,7 +6,7 @@
 </defs>
 <rect width="1200" height="900" fill="#EDE8DC"/>
 <rect width="1200" height="900" fill="url(#d)" opacity="0.55"/>
-<circle cx="674" cy="798" r="109" fill="#C2410C" opacity="0.06"/><circle cx="1166" cy="502" r="87" fill="#C2410C" opacity="0.06"/><circle cx="272" cy="281" r="123" fill="#C2410C" opacity="0.06"/><rect x="655" y="0" width="2" height="900" fill="#D8CDB4" opacity="0.7"/><rect x="1196" y="0" width="2" height="900" fill="#D8CDB4" opacity="0.7"/>
+<circle cx="986" cy="540" r="105" fill="#C2410C" opacity="0.06"/><circle cx="10" cy="582" r="106" fill="#C2410C" opacity="0.06"/><circle cx="577" cy="435" r="62" fill="#C2410C" opacity="0.06"/><rect x="489" y="0" width="2" height="900" fill="#D8CDB4" opacity="0.7"/><rect x="700" y="0" width="2" height="900" fill="#D8CDB4" opacity="0.7"/>
 <rect x="14" y="14" width="1172" height="872" fill="none" stroke="#D8CDB4" stroke-width="1.5"/>
 <text x="34" y="52" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="13" letter-spacing="3" fill="#8A8172">MARKETING &amp; DESIGN</text>
 <text x="600.0" y="450.0" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-weight="800" font-size="44" letter-spacing="-0.5" fill="#2A251D">CyberBowl</text>
