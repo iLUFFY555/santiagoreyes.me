@@ -6,7 +6,7 @@
 </defs>
 <rect width="900" height="1100" fill="#EDE8DC"/>
 <rect width="900" height="1100" fill="url(#d)" opacity="0.55"/>
-<circle cx="501" cy="182" r="91" fill="#C2410C" opacity="0.06"/><circle cx="859" cy="100" r="97" fill="#C2410C" opacity="0.06"/><circle cx="504" cy="665" r="98" fill="#C2410C" opacity="0.06"/><rect x="757" y="0" width="2" height="1100" fill="#D8CDB4" opacity="0.7"/><rect x="821" y="0" width="2" height="1100" fill="#D8CDB4" opacity="0.7"/>
+<circle cx="470" cy="956" r="67" fill="#C2410C" opacity="0.06"/><circle cx="5" cy="1040" r="124" fill="#C2410C" opacity="0.06"/><circle cx="828" cy="402" r="81" fill="#C2410C" opacity="0.06"/><rect x="544" y="0" width="2" height="1100" fill="#D8CDB4" opacity="0.7"/><rect x="538" y="0" width="2" height="1100" fill="#D8CDB4" opacity="0.7"/>
 <rect x="14" y="14" width="872" height="1072" fill="none" stroke="#D8CDB4" stroke-width="1.5"/>
 <text x="34" y="52" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="13" letter-spacing="3" fill="#8A8172">VIDEO</text>
 <text x="450.0" y="524.0" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-weight="800" font-size="38" letter-spacing="-0.5" fill="#2A251D">Esculent: A Sticky</text><text x="450.0" y="576.0" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-weight="800" font-size="38" letter-spacing="-0.5" fill="#2A251D">History of Mezcal</text>

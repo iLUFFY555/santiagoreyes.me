@@ -776,6 +776,8 @@ a.tag:hover { border-color: var(--accent); color: var(--accent-dark); text-decor
   cursor: zoom-in;
 }
 .gallery .g-item img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; transition: transform 0.5s ease; }
+.gallery-contain .g-item img { object-fit: contain; aspect-ratio: auto; background: var(--paper); }
+.gallery-contain .g-item:hover img { transform: none; }
 .gallery .g-item:hover img { transform: scale(1.03); }
 .gallery figcaption { font-size: 13px; color: var(--muted); padding: 10px 4px 0; }
 
