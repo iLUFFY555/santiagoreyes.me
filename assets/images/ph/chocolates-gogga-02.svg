@@ -6,7 +6,7 @@
 </defs>
 <rect width="1200" height="900" fill="#EDE8DC"/>
 <rect width="1200" height="900" fill="url(#d)" opacity="0.55"/>
-<circle cx="174" cy="441" r="85" fill="#C2410C" opacity="0.06"/><circle cx="1163" cy="731" r="111" fill="#C2410C" opacity="0.06"/><circle cx="816" cy="141" r="122" fill="#C2410C" opacity="0.06"/><rect x="520" y="0" width="2" height="900" fill="#D8CDB4" opacity="0.7"/><rect x="699" y="0" width="2" height="900" fill="#D8CDB4" opacity="0.7"/>
+<circle cx="987" cy="445" r="80" fill="#C2410C" opacity="0.06"/><circle cx="622" cy="397" r="66" fill="#C2410C" opacity="0.06"/><circle cx="103" cy="49" r="66" fill="#C2410C" opacity="0.06"/><rect x="298" y="0" width="2" height="900" fill="#D8CDB4" opacity="0.7"/><rect x="750" y="0" width="2" height="900" fill="#D8CDB4" opacity="0.7"/>
 <rect x="14" y="14" width="1172" height="872" fill="none" stroke="#D8CDB4" stroke-width="1.5"/>
 <text x="34" y="52" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="13" letter-spacing="3" fill="#8A8172">MARKETING &amp; DESIGN</text>
 <text x="600.0" y="450.0" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-weight="800" font-size="44" letter-spacing="-0.5" fill="#2A251D">Chocolates Gogga</text>
