@@ -943,6 +943,8 @@ a.tag:hover { border-color: var(--accent); color: var(--accent-dark); text-decor
 /* ---------- About page ---------- */
 .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(28px, 5vw, 64px); align-items: start; }
 .carousel { max-width: 900px; margin: 0 auto 20px; }
+.carousel-square { max-width: 560px; }
+.carousel-square .carousel-slide img { aspect-ratio: 1 / 1; object-fit: contain; background: var(--paper); }
 .carousel-wide .carousel-slide img { aspect-ratio: 16 / 10; }
 /* Per-slide focal points are set inline from CAROUSEL_SLIDES data */
 .carousel-frame {
