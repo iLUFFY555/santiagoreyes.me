@@ -6,7 +6,7 @@
 </defs>
 <rect width="900" height="1100" fill="#EDE8DC"/>
 <rect width="900" height="1100" fill="url(#d)" opacity="0.55"/>
-<circle cx="744" cy="234" r="125" fill="#C2410C" opacity="0.06"/><circle cx="445" cy="437" r="96" fill="#C2410C" opacity="0.06"/><circle cx="153" cy="213" r="78" fill="#C2410C" opacity="0.06"/><rect x="207" y="0" width="2" height="1100" fill="#D8CDB4" opacity="0.7"/><rect x="603" y="0" width="2" height="1100" fill="#D8CDB4" opacity="0.7"/>
+<circle cx="44" cy="340" r="121" fill="#C2410C" opacity="0.06"/><circle cx="743" cy="580" r="41" fill="#C2410C" opacity="0.06"/><circle cx="65" cy="393" r="115" fill="#C2410C" opacity="0.06"/><rect x="54" y="0" width="2" height="1100" fill="#D8CDB4" opacity="0.7"/><rect x="133" y="0" width="2" height="1100" fill="#D8CDB4" opacity="0.7"/>
 <rect x="14" y="14" width="872" height="1072" fill="none" stroke="#D8CDB4" stroke-width="1.5"/>
 <text x="34" y="52" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="13" letter-spacing="3" fill="#8A8172">MARKETING &amp; DESIGN</text>
 <text x="450.0" y="550.0" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-weight="800" font-size="44" letter-spacing="-0.5" fill="#2A251D">Imágenes Orales</text>
