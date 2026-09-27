@@ -6,7 +6,7 @@
 </defs>
 <rect width="1200" height="900" fill="#EDE8DC"/>
 <rect width="1200" height="900" fill="url(#d)" opacity="0.55"/>
-<circle cx="1174" cy="49" r="105" fill="#C2410C" opacity="0.06"/><circle cx="581" cy="848" r="77" fill="#C2410C" opacity="0.06"/><circle cx="1103" cy="143" r="130" fill="#C2410C" opacity="0.06"/><rect x="496" y="0" width="2" height="900" fill="#D8CDB4" opacity="0.7"/><rect x="220" y="0" width="2" height="900" fill="#D8CDB4" opacity="0.7"/>
+<circle cx="122" cy="484" r="114" fill="#C2410C" opacity="0.06"/><circle cx="1191" cy="245" r="58" fill="#C2410C" opacity="0.06"/><circle cx="872" cy="397" r="79" fill="#C2410C" opacity="0.06"/><rect x="388" y="0" width="2" height="900" fill="#D8CDB4" opacity="0.7"/><rect x="994" y="0" width="2" height="900" fill="#D8CDB4" opacity="0.7"/>
 <rect x="14" y="14" width="1172" height="872" fill="none" stroke="#D8CDB4" stroke-width="1.5"/>
 <text x="34" y="52" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="13" letter-spacing="3" fill="#8A8172">MARKETING &amp; DESIGN</text>
 <text x="600.0" y="450.0" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-weight="800" font-size="44" letter-spacing="-0.5" fill="#2A251D">Web Portal Redesign</text>

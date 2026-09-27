@@ -6,7 +6,7 @@
 </defs>
 <rect width="900" height="1100" fill="#EDE8DC"/>
 <rect width="900" height="1100" fill="url(#d)" opacity="0.55"/>
-<circle cx="680" cy="588" r="69" fill="#C2410C" opacity="0.06"/><circle cx="703" cy="927" r="105" fill="#C2410C" opacity="0.06"/><circle cx="716" cy="920" r="65" fill="#C2410C" opacity="0.06"/><rect x="796" y="0" width="2" height="1100" fill="#D8CDB4" opacity="0.7"/><rect x="639" y="0" width="2" height="1100" fill="#D8CDB4" opacity="0.7"/>
+<circle cx="14" cy="994" r="112" fill="#C2410C" opacity="0.06"/><circle cx="893" cy="399" r="53" fill="#C2410C" opacity="0.06"/><circle cx="478" cy="510" r="104" fill="#C2410C" opacity="0.06"/><rect x="890" y="0" width="2" height="1100" fill="#D8CDB4" opacity="0.7"/><rect x="128" y="0" width="2" height="1100" fill="#D8CDB4" opacity="0.7"/>
 <rect x="14" y="14" width="872" height="1072" fill="none" stroke="#D8CDB4" stroke-width="1.5"/>
 <text x="34" y="52" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="13" letter-spacing="3" fill="#8A8172">MARKETING &amp; DESIGN</text>
 <text x="450.0" y="550.0" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-weight="800" font-size="44" letter-spacing="-0.5" fill="#2A251D">Empanada Smiles</text>
