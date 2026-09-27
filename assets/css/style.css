@@ -776,6 +776,8 @@ a.tag:hover { border-color: var(--accent); color: var(--accent-dark); text-decor
   cursor: zoom-in;
 }
 .gallery .g-item img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; transition: transform 0.5s ease; }
+.gallery-contain { display: block; columns: 2; column-gap: clamp(14px, 2vw, 22px); }
+.gallery-contain figure { break-inside: avoid; margin: 0 0 clamp(14px, 2vw, 22px); }
 .gallery-contain .g-item img { object-fit: contain; aspect-ratio: auto; background: var(--paper); }
 .gallery-contain .g-item:hover img { transform: none; }
 .gallery .g-item:hover img { transform: scale(1.03); }
@@ -1118,6 +1120,7 @@ a.contact-card:hover { border-color: var(--accent); transform: translateY(-2px);
   .ratio-tall .card-media { aspect-ratio: 4 / 3; }
   .archive-grid { grid-template-columns: 1fr; }
   .gallery { grid-template-columns: 1fr; }
+  .gallery-contain { columns: 1; }
   .masonry { columns: 1; }
   .list-cols { columns: 1; }
   .prev-next { grid-template-columns: 1fr; }
