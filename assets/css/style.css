@@ -945,6 +945,8 @@ a.tag:hover { border-color: var(--accent); color: var(--accent-dark); text-decor
 .carousel { max-width: 900px; margin: 0 auto 20px; }
 .carousel-square { max-width: 560px; }
 .carousel-square .carousel-slide img { aspect-ratio: 1 / 1; object-fit: contain; background: var(--paper); }
+.carousel-portrait { max-width: 460px; }
+.carousel-portrait .carousel-slide img { aspect-ratio: 3 / 4; object-fit: contain; background: var(--paper); }
 .carousel-landscape { max-width: 900px; }
 .carousel-landscape .carousel-slide img { aspect-ratio: 16 / 9; object-fit: contain; background: var(--paper); }
 .carousel-wide .carousel-slide img { aspect-ratio: 16 / 10; }
