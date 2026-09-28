@@ -6,7 +6,7 @@
 </defs>
 <rect width="1200" height="900" fill="#EDE8DC"/>
 <rect width="1200" height="900" fill="url(#d)" opacity="0.55"/>
-<circle cx="1052" cy="524" r="43" fill="#C2410C" opacity="0.06"/><circle cx="1119" cy="93" r="95" fill="#C2410C" opacity="0.06"/><circle cx="744" cy="251" r="127" fill="#C2410C" opacity="0.06"/><rect x="402" y="0" width="2" height="900" fill="#D8CDB4" opacity="0.7"/><rect x="460" y="0" width="2" height="900" fill="#D8CDB4" opacity="0.7"/>
+<circle cx="8" cy="675" r="122" fill="#C2410C" opacity="0.06"/><circle cx="173" cy="329" r="128" fill="#C2410C" opacity="0.06"/><circle cx="1039" cy="784" r="105" fill="#C2410C" opacity="0.06"/><rect x="593" y="0" width="2" height="900" fill="#D8CDB4" opacity="0.7"/><rect x="411" y="0" width="2" height="900" fill="#D8CDB4" opacity="0.7"/>
 <rect x="14" y="14" width="1172" height="872" fill="none" stroke="#D8CDB4" stroke-width="1.5"/>
 <text x="34" y="52" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="13" letter-spacing="3" fill="#8A8172">MARKETING &amp; DESIGN</text>
 <text x="600.0" y="424.0" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-weight="800" font-size="38" letter-spacing="-0.5" fill="#2A251D">FSU ITS: General</text><text x="600.0" y="476.0" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-weight="800" font-size="38" letter-spacing="-0.5" fill="#2A251D">Design</text>
